@@ -119,3 +119,57 @@ body {
     margin-top: 10px;
     display: none;
 }
+
+/*Response Web Design*/
+
+@media screen and (max-width: 720px) {
+
+    .search {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .search input {
+        text-align: center;
+    }
+
+    #icon-location {
+        display: none;
+    }
+
+    #btn-search {
+        margin: 10px auto;
+    }
+
+    .weather-icon {
+        width: 150px;
+        margin-top: 10px;
+    }
+
+    .temp {
+        font-size: 50px;
+    }
+
+    .temp-description {
+        font-size: 17px;
+        font-style: italic;
+    }
+
+    .weather-details {
+        justify-content: space-between;
+    }
+
+    .detail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .humidity, .wind {
+        font-size: 23px;
+        margin-top: 6px;
+    }
+    
+}
